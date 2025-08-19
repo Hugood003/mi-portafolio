@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Mismo head que index.html -->
+    <title>Proyectos | Hugo del Valle</title>
+    <style>
+        .project-card {
+            transition: all 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        .tech-badge {
+            transition: all 0.2s ease;
+        }
+        .tech-badge:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navbar (igual que index.html) -->
+
+    <main class="max-w-6xl mx-auto px-4 py-12">
+        <!-- Encabezado -->
+        <div class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Mis <span class="text-primary">Proyectos</span></h1>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto">Una selección de mis trabajos más recientes</p>
+        </div>
+
+        <!-- Galería de Proyectos -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Proyecto 1 -->
+            <div class="project-card bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100">
+                <div class="relative h-56 overflow-hidden">
+                    <img src="assets/images/project1.png" alt="Landing Page" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    <span class="absolute top-4 right-4 bg-white text-primary px-3 py-1 rounded-full text-sm font-medium">Destacado</span>
+                </div>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">Landing Page</h2>
+                    <p class="text-gray-600 mb-4">Mi primer proyecto web creado con HTML y CSS puro, con diseño responsive.</p>
+                    
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="tech-badge bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML5</span>
+                        <span class="tech-badge bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">CSS3</span>
+                        <span class="tech-badge bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Responsive</span>
+                    </div>
+                    
+                    <div class="flex justify-between items-center">
+                        <a href="#" class="text-primary font-medium hover:underline flex items-center">
+                            Ver proyecto <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        <a href="#" class="text-gray-500 hover:text-primary">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyecto 2 -->
+            <div class="project-card bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100">
+                <div class="relative h-56 overflow-hidden">
+                    <img src="assets/images/project2.png" alt="App de Tareas" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                </div>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">App de reservas</h2>
+                    <p class="text-gray-600 mb-4">Aplicación para gestionar reservas en hotel .</p>
+                    
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="tech-badge bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML5</span>
+                        <span class="tech-badge bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">CSS3</span>
+                        <span class="tech-badge bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Responsive</span>
+                    </div>
+                    
+                    <div class="flex justify-between items-center">
+                        <a href="#" class="text-primary font-medium hover:underline flex items-center">
+                            Demo en vivo <i class="fas fa-external-link-alt ml-2"></i>
+                        </a>
+                        <a href="#" class="text-gray-500 hover:text-primary">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyecto 3 -->
+            <div class="project-card bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100">
+                <div class="relative h-56 overflow-hidden">
+                    <img src="assets/images/project3.png" alt="Portafolio" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                </div>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">Portafolio</h2>
+                    <p class="text-gray-600 mb-4">Este sitio web desarrollado con Tailwind CSS y buenas prácticas.</p>
+                    
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="tech-badge bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Tailwind CSS</span>
+                        <span class="tech-badge bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Responsive</span>
+                        <span class="tech-badge bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Git</span>
+                    </div>
+                    
+                    <div class="flex justify-between items-center">
+                        <a href="#" class="text-primary font-medium hover:underline flex items-center">
+                            Ver código <i class="fas fa-code ml-2"></i>
+                        </a>
+                        <a href="#" class="text-gray-500 hover:text-primary">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Llamado a la acción -->
+<div class="text-center mt-16 space-y-4">
+  <h3 class="text-2xl font-semibold mb-4">¿Interesado en trabajar juntos?</h3>
+  
+  <!-- Botón de contacto -->
+  <a href="mailto:hugoaledelvallec@gmail.com"
+     class="inline-block bg-blue-500 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-600 hover:shadow-md transform hover:scale-105 transition-all duration-300">
+     <i class="fas fa-paper-plane mr-2"></i> Contáctame
+  </a>
+
+  <!-- Botón para volver -->
+  <div>
+    <a href="index.html"
+       class="inline-block bg-gray-200 text-gray-800 px-6 py-3 rounded-lg font-medium hover:bg-gray-300 hover:shadow-md transform hover:scale-105 transition-all duration-300">
+       ⬅ Volver
+    </a>
+  </div>
+</div>

@@ -27,4 +27,4 @@ Puedes ver el portafolio en GitHub Pages aquí:
 
 ## Contacto
 - Correo: **hugoaledelvallec@gmail.com**  
-- LinkedIn: [Tu perfil aquí]  
+

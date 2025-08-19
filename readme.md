@@ -21,7 +21,7 @@ Es una forma de compartir lo que hago y mis intereses en desarrollo web.
 
 ## Demo en vivo
 Puedes ver el portafolio en GitHub Pages aquí:  
-[Ver Portafolio Online](https://Hugood003.github.io/portafolio-hugo/)
+[Ver Portafolio Online](https://hugood003.github.io/mi-portafolio/)
 
 ---
 
